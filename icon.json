@@ -1,30 +1,37 @@
 {
-  "name": "icon-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/icon-sample",
-  "version": "0.0.4",
+  "name": "tabler-icons-siyuan",
+  "author": "Paweł Kuna (icons), Cairo Braga (plugin)",
+  "url": "https://github.com/cairobraga/tabler-icons-siyuan",
+  "version": "0.0.1",
   "minAppVersion": "3.7.0",
   "displayName": {
-    "default": "Icon Sample",
-    "zh-CN": "图标示例"
+    "en": "Tabler Icons for the SiYuan interface",
+    "zh-CN": "西元界面的表格图标",
+    "pt": "Ícones Tabler para a interface do SiYuan",
+    "es": "Íconos Tabler para la interfaz de SiYuan",
+    "ca": "Icones Tabler per a l'interfície de SiYuan"
   },
   "description": {
-    "default": "This is a icon sample",
-    "zh-CN": "这是一个图标示例"
+    "en": "Tabler Icons for the SiYuan interface",
+    "zh-CN": "西元界面的表格图标",
+    "pt": "Ícones Tabler para a interface do SiYuan",
+    "es": "Íconos Tabler para la interfaz de SiYuan",
+    "ca": "Icones Tabler per a la interfície de SiYuan"
   },
   "readme": {
-    "default": "README.md",
-    "zh-CN": "README.zh-CN.md"
+    "en": "README.md",
+    "zh-CN": "README.zh-CN.md",
+    "pt": "README.pt.md",
+    "es": "README.es.md",
+    "ca": "README.ca.md"
   },
   "funding": {
-    "openCollective": "",
+    "openCollective": "https://opencollective.com/tabler",
     "patreon": "",
-    "github": "",
-    "custom": [
-      "https://ld246.com/sponsor"
-    ]
+    "github": "https://github.com/sponsors/codecalm",
+    "custom": "https://paypal.me/codecalm"
   },
   "keywords": [
-    "sample", "示例"
+    "tabler", "平板电脑", "icons", "svg", "interface", "ícones", "íconos", "icones", "图标"
   ]
 }

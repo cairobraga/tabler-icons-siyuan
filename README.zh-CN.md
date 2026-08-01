@@ -1,106 +1,18 @@
-[English](https://github.com/siyuan-note/icon-sample/blob/main/README.md)
+# README.zh-CN
 
-# 思源笔记主题示例
+[[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README|English]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt|Português]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es|Español]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca|Català]]
 
-## 开始
+*这份文件是用Libre Translate从英文翻译的,没有校对,我为任何错误道歉.*
 
-* 通过 <kbd>Use this template</kbd> 按钮将该库文件复制到你自己的库中，请注意库名必须和图标名称一致，默认分支必须为 `main`
-* 将你的库克隆到本地开发文件夹中，为了方便可以直接将开发文件夹放置在 `{workspace}/conf/appearance/icons/` 下
+# 西元界面的表格图标
 
-## 开发
+此 [SiYuan](https://siyuan-en.b3log.org/) 的图标插件( aka SiYuan Note) 打算将设置为图标的 [Tabler](https://tabler.io/icons) 图标应用到软件接口中。  
+我根据[这里可用的正式模板](https://github.com/siyuan-note/icon-sample)创建了这个插件, 并使用最新版本的 [Litheness 图标.js](https://github.com/siyuan-note/siyuan/blob/master/app/appearance/icons/litheness/icon.js) 作为特定需要的图标的基础 。
 
-* icon.json
-* icon.png (160*160)
-* preview.png (1024*768)
-* README*.md
-* icon.js
+我受个人用法所驱使:我已经用"表格图标"作为默认的文档集来取而代之,所以我想把这个"图标集"和"萨沃[主题](https://github.com/royc01/notion-theme)"结合起来,使我的软件界面与我这个意义上的文档保持一致.
 
-## icon.json
+感谢[Paweł Kuna](https://github.com/tabler/tabler-icons) 创建了如此优美,多才多艺,自由和开放源代码的图标集.
 
-```json
-{
-  "name": "icon-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/icon-sample",
-  "version": "0.0.4",
-  "minAppVersion": "3.7.0",
-  "displayName": {
-    "default": "Icon Sample",
-    "zh-CN": "图标示例"
-  },
-  "description": {
-    "default": "This is a icon sample",
-    "zh-CN": "这是一个图标示例"
-  },
-  "readme": {
-    "default": "README.md",
-    "zh-CN": "README.zh-CN.md"
-  },
-  "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
-    "custom": [
-      "https://ld246.com/sponsor"
-    ]
-  },
-  "keywords": [
-    "sample", "示例"
-  ]
-}
-```
+如果您使用并享受此插件, 请考虑通过 [OpenCollective](https://opencollective.com/tabler), [PayPal](https://paypal.me/codecalm) 或 [GitHub 赞助商](https://github.com/sponsors/codecalm)向 Tabler 图标项目及其创建者捐赠 .
 
-* `name`：图标名称，必须和库名一致，且全局唯一（集市中不能有重名图标）
-* `author`：图标作者名
-* `url`：图标仓库地址
-* `version`：图标版本号，建议遵循 [semver](https://semver.org/lang/zh-CN/) 规范
-* `minAppVersion`：图标支持的最低思源笔记版本号
-* `displayName`：图标显示名称，主要用于图标集市列表中显示，支持多语言
-    * `default`：默认语言，必须存在
-    * `zh-CN`、`en` 等其他语言：可选，须为 [BCP 47](https://tools.ietf.org/html/bcp47) 标签（如 `zh-CN`、`zh-TW`、`en`、`ja`、`pt-BR`）
-* `description`：图标描述，主要用于图标集市列表中显示，支持多语言
-    * `default`：默认语言，必须存在
-    * `zh-CN`、`en` 等其他语言：可选，须为 BCP 47 标签
-* `readme`：自述文件名，主要用于图标集市详情页中显示，支持多语言
-    * `default`：默认语言，必须存在
-    * `zh-CN`、`en` 等其他语言：可选，须为 BCP 47 标签
-* `funding`：图标赞助信息
-    * `openCollective`：Open Collective 名称
-    * `patreon`：Patreon 名称
-    * `github`：GitHub 登录名
-    * `custom`：自定义赞助链接列表
-* `keywords`：搜索关键字列表，用于集市搜索功能
-
-## 打包
-
-无论使用何种方式编译打包，我们最终需要生成一个 package.zip，它至少包含如下文件：
-
-* icon.png
-* preview.png
-* README*.md
-* icon.js
-* icon.json
-
-## 上架集市
-
-* 生成 package.zip
-* 在 GitHub 上创建一个新的发布，使用图标版本号作为 “Tag
-  version”，示例 https://github.com/siyuan-note/icon-sample/releases
-* 上传 package.zip 作为二进制附件
-* 提交发布
-
-如果是第一次发布版本，还需要创建一个 PR 到 [Community Bazaar](https://github.com/siyuan-note/bazaar) 社区集市仓库，修改该库的
-icons.json。该文件是所有社区图标库的索引，格式为：
-
-```json
-{
-  "repos": [
-    "username/reponame"
-  ]
-}
-```
-
-PR 被合并以后集市会通过 GitHub Actions 自动更新索引并部署。后续发布新版本图标时只需要按照上述步骤创建新的发布即可，不需要再
-PR 社区集市仓库。
-
-正常情况下，社区集市仓库每隔 1 小时会自动更新索引并部署，可在 https://github.com/siyuan-note/bazaar/actions 查看部署状态。
+‍

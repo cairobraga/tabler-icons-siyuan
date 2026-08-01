@@ -1,113 +1,17 @@
-[中文](https://github.com/siyuan-note/icon-sample/blob/main/README.zh-CN.md)
+# README
 
-# SiYuan icon sample
+[[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.zh-CN|中文]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt|Português]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es|Español]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca|Català]]
 
-## Get started
+# Tabler Icons for the SiYuan interface
 
-* Make a copy of this repo as a template with the <kbd>Use this template</kbd> button, please note that the repo name
-  must be the same as the icon name, the default branch must be `main`
-* Clone your repo to a local development folder. For convenience, you can place this folder in
-  your `{workspace}/conf/appearance/icons/` folder
+this Icon Plugin for [SiYuan (aka SiYuan Note)](https://siyuan-en.b3log.org/) intends to apply the [Tabler Icons](https://tabler.io/icons) set as icons to the interface of the software.
 
-## Development
+I created this plugin based on [the official template available here](https://github.com/siyuan-note/icon-sample) and using the most recent version of [the Litheness Icons .js](https://github.com/siyuan-note/siyuan/blob/master/app/appearance/icons/litheness/icon.js) as a base for what icons are needed specifically.
 
-* icon.json
-* icon.png (160*160)
-* preview.png (1024*768)
-* README*.md
-* icon.js
+I am motivated by personal usage: I already use the Tabler Icons as my default set for documents in place of the default emojis, so I wanted to combine this Icon Set with the [Savor Theme](https://github.com/royc01/notion-theme) to align my software interface with my documents in that sense.
 
-## icon.json
+huge thanks to [Paweł Kuna](https://github.com/tabler/tabler-icons) for creating such a nice, beautiful, versatile, free and open source icon set. :Tabler Icons/heart-filled:
 
-```json
-{
-  "name": "icon-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/icon-sample",
-  "version": "0.0.4",
-  "minAppVersion": "3.7.0",
-  "displayName": {
-    "default": "Icon Sample",
-    "zh-CN": "图标示例"
-  },
-  "description": {
-    "default": "This is a icon sample",
-    "zh-CN": "这是一个图标示例"
-  },
-  "readme": {
-    "default": "README.md",
-    "zh-CN": "README.zh-CN.md"
-  },
-  "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
-    "custom": [
-      "https://ld246.com/sponsor"
-    ]
-  },
-  "keywords": [
-    "sample", "示例"
-  ]
-}
-```
+If you use and enjoy this plugin, please consider donating to the original Tabler Icons project and its creator via [OpenCollective](https://opencollective.com/tabler), [PayPal](https://paypal.me/codecalm) or [GitHub Sponsors](https://github.com/sponsors/codecalm).
 
-* `name`: Icon name, must be the same as the repo name, and must be unique globally (no duplicate icon names in the
-  marketplace)
-* `author`: Icon author name
-* `url`: Icon repo URL
-* `version`: Icon version number, it is recommended to follow the [semver](https://semver.org/) specification
-* `minAppVersion`: Minimum version number of SiYuan that supports this icon
-* `displayName`: Widget display name, mainly used for display in the marketplace list, supports multiple languages
-    * `default`: Default language, must exist
-    * `zh-CN`, `en` and other languages: optional, must be [BCP 47](https://tools.ietf.org/html/bcp47) tags (e.g. `zh-CN`, `zh-TW`, `en`, `ja`, `pt-BR`)
-* `description`: Icon description, mainly used for display in the marketplace list, supports multiple languages
-    * `default`: Default language, must exist
-    * `zh-CN`, `en` and other languages: optional, must be BCP 47 tags
-* `readme`: readme file name, mainly used to display in the marketplace details page, supports multiple languages
-    * `default`: Default language, must exist
-    * `zh-CN`, `en` and other languages: optional, must be BCP 47 tags
-* `funding`: Icon sponsorship information
-    * `openCollective`: Open Collective name
-    * `patreon`: Patreon name
-    * `github`: GitHub login name
-    * `custom`: Custom sponsorship link list
-* `keywords`: Search keyword list, used for marketplace search function
-
-## Package
-
-No matter which method is used to compile and package, we finally need to generate a package.zip, which contains at
-least the following files:
-
-* icon.png
-* preview.png
-* README*.md
-* icon.js
-* icon.json
-
-## List on the marketplace
-
-* Generate the package.zip
-* Create a new GitHub release using your new version number as the "Tag version". See here for an
-  example: https://github.com/siyuan-note/icon-sample/releases
-* Upload the file package.zip as binary attachments
-* Publish the release
-
-If it is the first release, please create a pull request to
-the [Community Bazaar](https://github.com/siyuan-note/bazaar) repository and modify the icons.json file in it. This
-file is the index of all community icon repositories, the format is:
-
-```json
-{
-  "repos": [
-    "username/reponame"
-  ]
-}
-```
-
-After the PR is merged, the bazaar will automatically update the index and deploy through GitHub Actions. When releasing
-a new version of the icon in the future, you only need to follow the above steps to create a new release, and you
-don't need to PR the community bazaar repo.
-
-Under normal circumstances, the community bazaar repo will automatically update the index and deploy every hour,
-and you can check the deployment status at https://github.com/siyuan-note/bazaar/actions.
+‍

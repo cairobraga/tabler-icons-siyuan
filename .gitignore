@@ -4,3 +4,8 @@ node_modules
 .eslintcache
 dist
 package.zip
+/template/CHANGELOG.md
+/template/README.md
+/template/README.zh-CN.md
+/template/icon.png
+/template/preview.png
