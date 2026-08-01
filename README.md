@@ -1,6 +1,4 @@
-# README
-
-[[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.zh-CN|中文]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt|Português]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es|Español]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca|Català]]
+[中文](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.zh-CN.md) | [Português](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt.md) | [Español](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es.md) | [Català](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca.md)
 
 # Tabler Icons for the SiYuan interface
 

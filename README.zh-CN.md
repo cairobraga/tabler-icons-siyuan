@@ -1,6 +1,4 @@
-# README.zh-CN
-
-[[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README|English]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt|Português]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es|Español]] | [[https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca|Català]]
+[English](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.md) | [Português](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.pt.md) | [Español](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.es.md) | [Català](https://github.com/cairobraga/tabler-icons-siyuan/blob/main/README.ca.md)
 
 *这份文件是用Libre Translate从英文翻译的,没有校对,我为任何错误道歉.*
 
