@@ -8,14 +8,14 @@
     "en": "Tabler Icons for the SiYuan interface",
     "zh-CN": "西元界面的表格图标",
     "pt": "Ícones Tabler para a interface do SiYuan",
-    "es": "Íconos Tabler para la interfaz de SiYuan",
-    "ca": "Icones Tabler per a l'interfície de SiYuan"
+    "es": "Iconos Tabler para la interfaz de SiYuan",
+    "ca": "Icones Tabler per a la interfície de SiYuan"
   },
   "description": {
     "en": "Tabler Icons for the SiYuan interface",
     "zh-CN": "西元界面的表格图标",
     "pt": "Ícones Tabler para a interface do SiYuan",
-    "es": "Íconos Tabler para la interfaz de SiYuan",
+    "es": "Iconos Tabler para la interfaz de SiYuan",
     "ca": "Icones Tabler per a la interfície de SiYuan"
   },
   "readme": {
@@ -32,6 +32,6 @@
     "custom": "https://paypal.me/codecalm"
   },
   "keywords": [
-    "tabler", "平板电脑", "icons", "svg", "interface", "ícones", "íconos", "icones", "图标"
+    "tabler", "平板电脑", "icons", "svg", "interface", "ícones", "iconos", "icones", "图标"
   ]
 }

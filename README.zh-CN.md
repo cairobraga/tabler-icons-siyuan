@@ -9,8 +9,6 @@
 
 我受个人用法所驱使:我已经用"表格图标"作为默认的文档集来取而代之,所以我想把这个"图标集"和"萨沃[主题](https://github.com/royc01/notion-theme)"结合起来,使我的软件界面与我这个意义上的文档保持一致.
 
-感谢[Paweł Kuna](https://github.com/tabler/tabler-icons) 创建了如此优美,多才多艺,自由和开放源代码的图标集.
+感谢[Paweł Kuna](https://github.com/tabler/tabler-icons) 创建了如此优美,多才多艺,自由和开放源代码的图标集. :Tabler Icons/heart-filled:
 
 如果您使用并享受此插件, 请考虑通过 [OpenCollective](https://opencollective.com/tabler), [PayPal](https://paypal.me/codecalm) 或 [GitHub 赞助商](https://github.com/sponsors/codecalm)向 Tabler 图标项目及其创建者捐赠 .
-
-‍
